@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scrolling Example" />
+
+        <Button
+            android:id="@+id/btList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List example" />
+
+        <Button
+            android:id="@+id/btButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Different buttons" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btDBConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simple DB Connect Example" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btDBForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simple DB Connect Example" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btDBForm2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simple DB Connect Example" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
